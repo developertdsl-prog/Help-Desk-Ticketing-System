@@ -1,0 +1,40 @@
+# Help Desk & Ticketing System - Git Ignore
+
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn-lock.lock
+package-lock.json
+
+# Environment variables
+.env
+.env.example
+
+# Build artifacts
+/dist/
+/build/
+/*.tgz
+
+# Database
+*.sqlite
+*.db
+
+# Uploads
+/uploads/
+
+# Logs
+/*.log
+/logs/
+
+# IDE
+/.vscode/
+/*.code-workspace
+
+# Runtime
+/pids/
+/*.pid
+*.seed*
+
+# Swagger/API docs (if generated)
+/docs/
+/*.openapi.json
