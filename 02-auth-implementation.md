@@ -1,4 +1,4 @@
-# Issue: Authentication Implementation
+# Issue: User Authentication Implementation
 
 **Milestone:** 2 - Authentication & User Management
 
@@ -6,7 +6,7 @@
 
 **Checklist:**
 - [ ] Implement user registration endpoint
-- [ ] Implement user login endpoint with JWT
+- [ ] Implement user login endpoint with JWT tokens
 - [ ] Hash passwords using bcrypt
 - [ ] Create role-based permission middleware
 - [ ] Implement password reset functionality
@@ -21,4 +21,5 @@ Implement complete user authentication and authorization system supporting three
 - Passwords are hashed using bcrypt
 - API endpoints protected by role middleware
 - Three distinct roles with proper permissions
-- Password reset flow via email or token
+- Password reset flow
+- User profile management endpoints
